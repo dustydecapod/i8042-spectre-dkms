@@ -1,4 +1,4 @@
-Derived from the original [i8042 driver](https://github.com/torvalds/linux/blob/master/drivers/input/serio/i8042.c) in the Linux Kernel, using a [patch](https://www.spinics.net/lists/linux-input/msg71677.html) written and provided by Anton Zhilyaev.
+Derived from the original [i8042 driver](https://github.com/torvalds/linux/blob/master/drivers/input/serio/i8042.c) in the Linux Kernel, using a [patch](https://patchwork.kernel.org/project/linux-input/patch/20210201160336.16008-1-anton@cpp.in/) written and provided by Anton Zhilyaev.
 
 **Install**
 
