@@ -19,7 +19,6 @@
 #include <linux/rcupdate.h>
 #include <linux/platform_device.h>
 #include <linux/i8042.h>
-#include <linux/i8042-io.h>
 #include <linux/slab.h>
 #include <linux/suspend.h>
 #include <linux/property.h>
@@ -129,6 +128,7 @@ static char i8042_kbd_firmware_id[128];
 static char i8042_aux_firmware_id[128];
 static struct fwnode_handle *i8042_kbd_fwnode;
 
+#include "i8042.h"
 
 /*
  * i8042_lock protects serialization between i8042_command and
